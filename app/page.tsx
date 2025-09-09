@@ -24,6 +24,10 @@ export default function Home() {
             </div>
           </a>
         </div>
+        <div className="flex gap-2.5">
+          <button className="downloadButtons">Download Resume</button>
+          <button className="downloadButtons">Download CV</button>
+        </div>
       </div>
       <Image src="/headshot.png" width={500} height={500} alt="" />
     </div>
