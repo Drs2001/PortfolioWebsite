@@ -12,5 +12,7 @@
 }
 
 .link:hover{
-    color:rgb(255, 118, 38);
+    background-image: linear-gradient(135deg,rgb(199, 22, 22), rgb(255, 118, 38));
+    color: transparent;
+    background-clip: text;
 }
