@@ -1,12 +1,13 @@
 import Image from "next/image";
 import Icons from "./components/Icons"
+import data from "./data.json";
 
 export default function Home() {
   return (
     <div className="home">
       <div className="pt-60">
         <p>Hi I am</p>
-        <p className="font-bold text-lg">Dylan Spence</p>
+        <p className="font-bold text-lg">{data.personal_info.first_name} {data.personal_info.last_name}</p>
         <p className="title">Full Stack Developer / IT Enthusiest</p>
         <Icons />
         <div className="flex gap-2.5">

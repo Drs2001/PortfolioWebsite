@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link';
 import styles from './Navbar.module.css';
+import data from "../data.json"
 
 const Navbar = () => {
     return (
@@ -13,7 +14,7 @@ const Navbar = () => {
                 <Link href="/experience" className={styles.link}>Experience</Link>
                 <Link href="/skills" className={styles.link}>Skills</Link>
             </div>
-            <button className={styles.contactButton}>Contact Me</button>
+            <a href={`mailto:${data.personal_info.email}`} className={styles.contactButton}>Contact Me</a>
         </div>
     )
 }
