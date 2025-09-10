@@ -10,7 +10,8 @@ const Footer = () => {
                 <p>Dylanspence705607@gmail.com</p>
                 <p>+1 321-292-4540</p>
             </div>
-            <hr className={styles.line} />
+            {/* <hr className={styles.line} /> */}
+            <p>© {new Date().getFullYear()} Dylan Spence</p>
         </footer>
     )
 }
