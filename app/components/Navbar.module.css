@@ -10,7 +10,7 @@
 .linksGroup{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -26,10 +26,11 @@
 
 .link{
     font-weight:bold;
+    padding: 6px;
+    border-radius: 5px;
 }
 
 .link:hover{
     background-image: linear-gradient(135deg,rgb(199, 22, 22), rgb(255, 118, 38));
-    color: transparent;
-    background-clip: text;
+    color: white;
 }

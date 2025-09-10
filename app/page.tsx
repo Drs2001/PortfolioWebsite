@@ -8,7 +8,7 @@ export default function Home() {
       <div className="pt-60">
         <p>Hi I am</p>
         <p className="font-bold text-lg">{data.personal_info.first_name} {data.personal_info.last_name}</p>
-        <p className="title">Full Stack Developer / IT Enthusiest</p>
+        <p className="title">Full Stack Developer / IT Enthusiast</p>
         <Icons />
         <div className="flex gap-2.5">
           <button className="downloadButtons">Download Resume</button>
