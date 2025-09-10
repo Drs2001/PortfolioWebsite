@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  gap: 20px; 
+  width: 100%;
+}
+
+.left {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.right {
+  flex: 2;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.left:hover { transform: translateY(-2px); }
+.right:hover { transform: translateY(-2px); }
+
+.divider {
+  width: 2px;
+  background-color: #423e3e;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: white;
+  margin-bottom: 0.5rem;
+}

@@ -3,13 +3,41 @@
     {
         "first_name": "Dylan",
         "last_name": "Spence", 
-        "email": "Dylanspence705607@gmail.com",
+        "email": "dylanspence705607@gmail.com",
         "phonenumber": "+1 321-292-4540"
     },
     "links":
     {
         "github": "https://github.com/Drs2001",
         "linkedin": "https://www.linkedin.com/in/dylan-spence-999036234/"
-    }
+    },
+    "experience":
+    [
+        {
+            "company": "Precision Optical Technologies",
+            "location": "Rochester, NY",
+            "dates": "January 2024 - August 2024",
+            "title": "Software Engineering Co-op",
+            "description": "Added internal data analytic features to web server, providing actionable insights for the production, sales, and engineering teams. Collaborated on cross-platform (iOS, Android, Windows) app development used by customers to interface with custom hardware.",
+            "link": "https://www.precisionot.com/"
+        },
+        {
+            "company": "MKS Instruments",
+            "location": "Rochester, NY",
+            "dates": "January 2023 - July 2023",
+            "title": "Software Engineering Co-op",
+            "description": "Developed automation scripts to generate Windows .exe installers for various projects, significantly improving testing efficiency for the team. Additionally, contributed to the development and maintenance of the core DLL shared by all RF generators.",
+            "link": "https://www.mks.com/"
+        },
+        {
+            "company": "Mimio LLC",
+            "location": "Remote",
+            "dates": "July 2022 - December 2022",
+            "title": "App Developer",
+            "description": "Designed and implemented the underlying architecture of a cross-platform messaging application. Developed a novel syllable analysis engine for identifying Haiku poems within messages.",
+            "link": "https://apps.apple.com/us/app/haikumi/id1632097536"
+        }
+    ]
+
     
 }
