@@ -46,21 +46,6 @@ main{
   padding-bottom: 30px;
 }
 
-.links{
-  display: flex;
-  gap: 20px;
-  padding-bottom: 20px;
-}
-
-.icons{
-  border-radius: 50%;
-  background-color: #252323;
-  padding: 8px;
-  border-style: solid;
-  border-color: #423e3e;
-  border-width: 1px;
-}
-
 .downloadButtons{
   font-weight: bold;
   border-style: solid;

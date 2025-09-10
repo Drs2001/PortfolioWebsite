@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Icons from "./components/Icons"
 
 export default function Home() {
   return (
@@ -7,23 +8,7 @@ export default function Home() {
         <p>Hi I am</p>
         <p className="font-bold text-lg">Dylan Spence</p>
         <p className="title">Full Stack Developer / IT Enthusiest</p>
-        <div className="links">
-          <a href="https://github.com/Drs2001" target="_blank" rel="noopener noreferrer">
-            <div className="icons">
-              <img src="/github-mark-white.svg" alt="Open link" width="24" height="24"></img>
-            </div>
-          </a>
-          <a href="https://www.linkedin.com/in/dylan-spence-999036234/" target="_blank" rel="noopener noreferrer">
-            <div className="icons">
-              <img src="/linkedin.png" alt="Open link" width="24" height="24"></img>
-            </div>
-          </a>
-          <a href="https://gitea.spence.cloud/Drs2001" target="_blank" rel="noopener noreferrer">
-            <div className="icons">
-              <img src="/gitea.png" alt="Open link" width="24" height="24"></img>
-            </div>
-          </a>
-        </div>
+        <Icons />
         <div className="flex gap-2.5">
           <button className="downloadButtons">Download Resume</button>
           <button className="downloadButtons">Download CV</button>
