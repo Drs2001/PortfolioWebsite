@@ -1,0 +1,8 @@
+.footer{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    justify-content: center;
+    flex-direction: column;
+}
