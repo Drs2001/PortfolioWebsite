@@ -43,7 +43,58 @@
         "summary": "From a young age, I’ve been driven by curiosity—taking apart phones, computers, and any electronics I could find to understand how they work. That passion led me to pursue a degree in Computer Science, where I’ve channeled my inquisitive nature into mastering how computers work, exploring the best technologies for specific applications, and optimizing efficiency in software solutions. I've been fortunate to intern at some great companies while pursuing my degree in Computer Science. These companies really helped me to take the skills I learned in the classroom and apply them in a practical setting. I started off with mobile app development, crafting a modern app using Flutter and Firebase to meet client specs. At MKS, I worked as a .NET developer, enhancing DLL libraries for RF generators and streamlining processes with Jenkins and JavaScript automation scripts. Most recently, at Precision Optical Technologies, I tackled everything from embedded C development and Django-based data analytics to Electron cross-platform apps, React Android development, Docker containerization, and Python APIs for engineering workflows. I’m passionate about writing efficient, impactful code and thrive in dynamic, problem-solving environments. My goal? To join a forward-thinking team where I can contribute to innovative software solutions. When I’m not coding, I’m managing and improving my homelab with a goal of de-googling my life. Let’s connect to talk tech, opportunities, or the next big project!",
         "interests": "For as long as I can remember I have been into sports. From way back when I was four playing youth soccer that hobby stuck for the next twelve years through until highschool. I dropped it around the pandemic, but still have a loce for the sport and will try to catch a BPL game every now and again. These days though the main sport I partake in is bouldering. I picked this up around my 3rd year in college and absolutly fell in love with the sport. It is a subset of rock climbing where you attempt to complete shorter more technical routes without a harness and rope. Aside from bouldering I also enjoy pickleball from time to time with my friends. Keeping in the theme of sports and athletics I am a decently health concious person who cares about what goes into my body and I put a lot of thought into the meals I have which has also spawned a new hobbie for me cooking. I love finding recipies and trying them out myself, cooking at home is not only fun but allows more control over the foods I'm consuming which is important so I have the energy to perform my sports to the best of my abilitys. Moving away from sports and physical health, I am not suprisingly very into technology. I run my own homelab that I tinker with from time to time. There is nothing more fun than browsing https.//selfh.st and finding a new app I can spin up with my Docker server and replace another google cloud service. If your'e looking for reccommendations mealie is one of my favorites for storing my recipies, it so fun when two hobbies merge! I also am big into travel, as of writing I have been to most of the states on the East coast, California, Texas, Mexico, Bermuda, Perutorico, and Japan. My goal is to visit as many places as I can aound the world. Lastly, I really enjoy spending time with friends and family and make the effort whenever I get the chance.",
         "history": "A breif backstory on my life. I was origionally born in Daytona beach Florida where I spent the first few years of my life. I dont remember too much from that time, only hiding in my nursery with a dresser in front of the window as hurricane Charely beat down on us. From here started a long series of moves up and down the east coast. The first destination was Michigan were we lived in Roscommon for a few years, this is where I got to start school. From Michigan we moved to Fairfax, Virginia, this is where I learned how to swim and attended kindergarten. We only lived in Virginia for about a ear before moving back down to Florida this time living on the space coast in Merrit Island. This is where I have some of my best memories from great times with friends to watching giant cruise ships leave the port during our family beach days. Merrit Island was a lot of fun, I got to stay here until third grade which is when we moved to Annapolis, Maryland. It was here I spent the most time yet as I got to stay there for six years. Maryland had cool culture and was overall a nice city, but unfourtunetly the schools I went to were in smaller towns where most people had already known eachother so fitting in was a struggle and I never really was able to. I went through tons of bullying from elementry through highschool there. This is why when I was asked if I was ok moving my Junior year of highschool I said yes without hesitation, and from there I said goodbye to Maryland. From Maryland I went back to Virgnia this time getting to live in Virginia beach. I was only there for a couple years, just enough time to finish highschool, but I loved my time here the community was really nice and I loved my highschool. Finally, after graduating highschool I was accepted into Rochester Institute of Technology and moved up to New York. This was back in 2020 and is where I currently live today. As you can tell I never stayed in one place for long but honestly I'm greatful for this. I got to meet lots of people and experience living in many different places whiched helped me grow as a person. It defenitly mad me more flexiable and adaptable which I have translated into different aspects of my life such as my career."
-    }
+    },
+    "skills":
+    [
+        {
+            "skill": "Python",
+            "percent": "100"
+        },
+        {
+            "skill": "Java",
+            "percent": "100"
+        },
+        {
+            "skill": "C#",
+            "percent": "100"
+        },
+        {
+            "skill": "Javascript",
+            "percent": "100"
+        },
+        {
+            "skill": "Typescript",
+            "percent": "100"
+        },
+        {
+            "skill": "HTML",
+            "percent": "100"
+        },
+        {
+            "skill": "CSS",
+            "percent": "100"
+        },
+        {
+            "skill": "Visual Basic",
+            "percent": "100"
+        },
+        {
+            "skill": "Dart",
+            "percent": "100"
+        },
+        {
+            "skill": "C",
+            "percent": "100"
+        },
+        {
+            "skill": "SQL",
+            "percent": "100"
+        },
+        {
+            "skill": "Troubleshooting Virtual Machines",
+            "percent": "75"
+        }
+    ]
 
 
     
