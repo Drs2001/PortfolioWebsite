@@ -11,8 +11,8 @@ export default function Home() {
         <p className="title">Full Stack Developer / IT Enthusiast</p>
         <Icons />
         <div className="flex gap-2.5">
-          <button className="downloadButtons">Download Resume</button>
-          <button className="downloadButtons">Download CV</button>
+          <a href="/DylanResume2025.pdf" download className="downloadButtons">Download Resume</a>
+          <a href="/CoverLetter.odt" download className="downloadButtons">Download CV</a>
         </div>
       </div>
       <Image src="/headshot.png" width={500} height={500} alt="" />
