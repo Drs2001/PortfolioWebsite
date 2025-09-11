@@ -47,52 +47,144 @@
     "skills":
     [
         {
-            "skill": "Python",
+            "name": "Python",
             "percent": "100"
         },
         {
-            "skill": "Java",
+            "name": "Java",
             "percent": "100"
         },
         {
-            "skill": "C#",
+            "name": "C#",
             "percent": "100"
         },
         {
-            "skill": "Javascript",
+            "name": "Javascript",
             "percent": "100"
         },
         {
-            "skill": "Typescript",
+            "name": "Typescript",
             "percent": "100"
         },
         {
-            "skill": "HTML",
+            "name": "HTML",
             "percent": "100"
         },
         {
-            "skill": "CSS",
+            "name": "CSS",
             "percent": "100"
         },
         {
-            "skill": "Visual Basic",
+            "name": "Visual Basic",
             "percent": "100"
         },
         {
-            "skill": "Dart",
+            "name": "Dart",
             "percent": "100"
         },
         {
-            "skill": "C",
+            "name": "C",
             "percent": "100"
         },
         {
-            "skill": "SQL",
+            "name": "SQL",
             "percent": "100"
         },
         {
-            "skill": "Troubleshooting Virtual Machines",
+            "name": "Troubleshooting Virtual Machines",
             "percent": "75"
+        },
+        {
+            "name": "Django",
+            "percent": "100"
+        },
+        {
+            "name": "Angular",
+            "percent": "40"
+        },
+        {
+            "name": "React",
+            "percent": "50"
+        },
+        {
+            "name": "GIT",
+            "percent": "100"
+        },
+        {
+            "name": ".NET",
+            "percent": "75"
+        },
+        {
+            "name": "Perforce",
+            "percent": "80"
+        },
+        {
+            "name": "Firebase",
+            "percent": "60"
+        },
+        {
+            "name": "PostgresSQL",
+            "percent": "90"
+        },
+        {
+            "name": "MySQL",
+            "percent": "90"
+        },
+        {
+            "name": "Unit Testing",
+            "percent": "85"
+        },
+        {
+            "name": "API",
+            "percent": "100"
+        },
+        {
+            "name": "Docker",
+            "percent": "85"
+        },
+        {
+            "name": "Portainer",
+            "percent": "90"
+        },
+        {
+            "name": "Cloudflare",
+            "percent": "35"
+        },
+        {
+            "name": "Network Tunneling",
+            "percent": "50"
+        },
+        {
+            "name": "Port Management",
+            "percent": "100"
+        },
+        {
+            "name": "Customer Computer Hardware Assembly",
+            "percent": "85"
+        },
+        {
+            "name": "Ubuntu",
+            "percent": "70"
+        },
+        {
+            "name": "Ubuntu Server",
+            "percent": "70"
+        },
+        {
+            "name": "Proxmox",
+            "percent": "60"
+        },
+        {
+            "name": "TrueNAS Scale",
+            "percent": "60"
+        },
+        {
+            "name": "Windows home",
+            "percent": "100"
+        },
+        {
+            "name": "Windows Server",
+            "percent": "90"
         }
     ]
 
