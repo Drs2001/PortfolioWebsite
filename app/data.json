@@ -185,6 +185,25 @@
         {
             "name": "Windows Server",
             "percent": "90"
+        },
+        {
+            "name": "Flutter",
+            "percent": "50"
+        },
+        {
+            "name": "Dart",
+            "percent": "50"
+        }
+    ],
+    "projects":
+    [
+        {
+            "title": "Haikumi",
+            "summary": "Ever wanted to message in Haiku form?",
+            "about": "Haikumi is a messaging app that allows users to communicate through Haikus.",
+            "tags": ["Flutter", "Dart", "Firebase"],
+            "image": "/haikumi.png",
+            "link": "https://haikumi.app/"
         }
     ]
 

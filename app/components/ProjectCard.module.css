@@ -1,0 +1,62 @@
+.imageContainer {
+  position: relative;
+  display: inline-block;
+  width: 500px; /* set your image size */
+}
+
+.imageContainer img {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.toolTip {
+  position: absolute;
+  bottom: 10px;       
+  color: white;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none; /* don’t block clicks on image */
+}
+
+.tipTitle{
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: "Blorado", sans-serif;
+}
+
+.tipSummary{
+    color: rgb(202, 202, 202);
+    font-size: medium;
+    padding-bottom: 10px;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 8px;
+}
+
+.imageContainer:hover .overlay {
+  opacity: 1;
+}
+
+.imageContainer:hover .toolTip {
+  opacity: 1;
+}
+
+.tags{
+    display: flex;
+    gap: 10px;
+}
+
+.tag{
+    font-size: small;
+    background-color: gray;
+    padding: 1px 10px 1px 10px;
+    border-radius: 15px;
+}
