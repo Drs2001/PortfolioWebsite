@@ -204,6 +204,22 @@
             "tags": ["Flutter", "Dart", "Firebase"],
             "image": "/haikumi.png",
             "link": "https://haikumi.app/"
+        },
+        {
+            "title": "Haikumi",
+            "summary": "Ever wanted to message in Haiku form?",
+            "about": "Haikumi is a messaging app that allows users to communicate through Haikus.",
+            "tags": ["Flutter", "Dart", "Firebase"],
+            "image": "/haikumi.png",
+            "link": "https://haikumi.app/"
+        },
+        {
+            "title": "Remarkable File Explorer",
+            "summary": "Simple file explorer for the Remarkable Tablet.",
+            "about": "A application that interfaces with the remarkable tablet filesystem and displays it in a easy to use GUI for viewing and downloading documents.",
+            "tags": ["Python", "PyQt", "API Requests"],
+            "image": "/rmFileExplorer.png",
+            "link": "https://github.com/Drs2001/RemarkableFileExplorer"
         }
     ]
 

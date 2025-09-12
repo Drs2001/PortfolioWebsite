@@ -3,3 +3,8 @@
     flex-direction: column;
     align-items: center;
 }
+
+.projectCards{
+    display: flex;
+    gap: 1rem;
+}

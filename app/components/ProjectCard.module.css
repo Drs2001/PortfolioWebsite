@@ -49,14 +49,87 @@
   opacity: 1;
 }
 
-.tags{
+.tipTags{
     display: flex;
     gap: 10px;
 }
 
-.tag{
+.tipTag{
     font-size: small;
     background-color: gray;
     padding: 1px 10px 1px 10px;
     border-radius: 15px;
 }
+
+.card {
+  position: relative;
+  cursor: pointer;
+}
+
+/* Backdrop */
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+}
+
+/* Drawer */
+.drawer {
+  position: fixed;
+  top: 0;
+  right: -500px; /* hidden off-screen */
+  width: 500px;
+  height: 100%;
+  background: #2f2f2f;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 200;
+  padding: 20px;
+  transition: right 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.drawer.open {
+  right: 0; /* slide into view */
+}
+
+.closeBtn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.drawerTitle{
+    font-weight: bold;
+    color: white;
+    font-size: x-large;
+}
+
+.drawerSubHeading{
+    color: white;
+    font-size: large;
+    padding-bottom: 10px;
+}
+
+.drawerText{
+    color: rgb(193, 193, 193);
+    font-size: 15px;
+}
+
+.drawerTags{
+    display: flex;
+    gap: 10px;
+}
+
+.drawerTag{
+    color: white;
+    font-size: medium;
+    background-image: linear-gradient(135deg,rgb(199, 22, 22), rgb(255, 118, 38));
+    padding: 1px 10px 1px 10px;
+    border-radius: 5px;
+}
+
