@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from "next/image";
 import styles from "./page.module.css";
 
 const Education = () => {
@@ -8,7 +7,7 @@ const Education = () => {
             <h1 className="title">
                 Education
             </h1>
-            <Image src="/diploma.png" width={1000} height={1000} alt="" />
+            <img src="/diploma.png" width={1000} height={1000} alt="" />
         </div>
     )
 }

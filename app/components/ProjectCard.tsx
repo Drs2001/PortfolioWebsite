@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import styles from "./ProjectCard.module.css";
-import Image from "next/image";
 
 type CardProps = {
   title: string;
@@ -31,7 +30,7 @@ const ProjectCard = ({ title, summary, about, tags, image, link }: CardProps) =>
           className={styles.imageContainer}
           onClick={() => setOpen(true)} // open drawer on click
         >
-          <Image src={image} width={500} height={500} alt={title} />
+          <img src={image} width={500} height={500} alt={title} />
           <div className={styles.overlay}></div>
           <div className={styles.toolTip}>
             <h1 className={styles.tipTitle}>{title}</h1>
@@ -59,7 +58,7 @@ const ProjectCard = ({ title, summary, about, tags, image, link }: CardProps) =>
             <h1 className={styles.drawerTitle}>{title}</h1>
             <p className={styles.drawerText}>{summary}</p>
         </div>
-        <Image src={image} width={500} height={500} alt={title} style={{ borderRadius: "12px"}} />
+        <img src={image} width={500} height={500} alt={title} style={{ borderRadius: "12px"}} />
         <div style={{paddingBottom: 20, paddingTop: 30}}>
             <h2 className={styles.drawerSubHeading}>About</h2>
             <p className={styles.drawerText}>{about}</p>

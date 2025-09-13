@@ -45,9 +45,6 @@ jobs:
       - name: Build Next.js project
         run: pnpm exec next build
 
-      - name: List output folder
-        run: ls -R .next/output
-
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:

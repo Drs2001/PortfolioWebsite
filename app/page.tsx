@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Icons from "./components/Icons"
 import data from "./data.json";
 
@@ -15,7 +14,7 @@ export default function Home() {
           <a href="/CoverLetter.odt" download className="downloadButtons">Download CV</a>
         </div>
       </div>
-      <Image src="/headshot.png" width={500} height={500} alt="" />
+      <img src="headshot.png" width={500} height={500} alt="" />
     </div>
   );
 }
