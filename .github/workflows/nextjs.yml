@@ -46,12 +46,12 @@ jobs:
         run: pnpm exec next build
 
       - name: List output folder
-        run: ls -R .next/output
+        run: ls -R ./
 
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .next/output/export
+          path: out
 
   deploy:
     needs: build
