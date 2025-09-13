@@ -14,7 +14,7 @@ export default function Home() {
           <a href="/CoverLetter.odt" download className="downloadButtons">Download CV</a>
         </div>
       </div>
-      <img src="headshot.png" width={500} height={500} alt="" />
+      <img src="headshot.png" className="imageTest" alt="" />
     </div>
   );
 }
