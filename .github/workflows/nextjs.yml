@@ -17,7 +17,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -46,13 +45,10 @@ jobs:
       - name: Build Next.js project
         run: pnpm exec next build
 
-      - name: Export static site
-        run: pnpm exec next export
-
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: .next/output/static
 
   deploy:
     needs: build
