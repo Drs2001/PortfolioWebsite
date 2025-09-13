@@ -1,14 +1,19 @@
 .page{
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .cards{
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    padding-left: 100px;
+}
+
+.skillSections{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    gap: 30px;
 }
 
 .searchBar{
@@ -23,4 +28,10 @@
 .searchBar:focus{
     border-bottom: 2px solid rgb(137, 137, 137);
     border-radius: 5px;
+}
+
+.subHeading{
+    font-size: x-large;
+    color: white;
+    font-weight: bold;
 }

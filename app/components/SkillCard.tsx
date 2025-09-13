@@ -10,8 +10,6 @@ const SkillCard = ({skill, percent}: CardProps) => {
     return (
     <div className={styles.card}>
         <p className={styles.title}>{skill}</p>
-        <progress value="100" max="100" className={styles.progress}></progress>
-        {/* <p className={styles.title}>{percent}%</p> */}
     </div>
     )
 }

@@ -48,151 +48,188 @@
     [
         {
             "name": "Python",
+            "category": "Languages",
             "percent": "100"
         },
         {
             "name": "Java",
+            "category": "Languages",
             "percent": "100"
         },
         {
             "name": "C#",
+            "category": "Languages",
             "percent": "100"
         },
         {
             "name": "Javascript",
+            "category": "Languages",
             "percent": "100"
         },
         {
             "name": "Typescript",
+            "category": "Languages",
             "percent": "100"
         },
         {
             "name": "HTML",
+            "category": "Languages",
             "percent": "100"
         },
         {
             "name": "CSS",
+            "category": "Languages",
             "percent": "100"
         },
         {
             "name": "Visual Basic",
-            "percent": "100"
-        },
-        {
-            "name": "Dart",
+            "category": "Languages",
             "percent": "100"
         },
         {
             "name": "C",
+            "category": "Languages",
             "percent": "100"
         },
         {
             "name": "SQL",
+            "category": "Frameworks and Tools",
             "percent": "100"
         },
         {
             "name": "Troubleshooting Virtual Machines",
+            "category": "Frameworks and Tools",
             "percent": "75"
         },
         {
             "name": "Django",
+            "category": "Frameworks and Tools",
             "percent": "100"
         },
         {
             "name": "Angular",
+            "category": "Frameworks and Tools",
             "percent": "40"
         },
         {
             "name": "React",
+            "category": "Frameworks and Tools",
             "percent": "50"
         },
         {
             "name": "GIT",
+            "category": "Frameworks and Tools",
             "percent": "100"
         },
         {
             "name": ".NET",
+            "category": "Frameworks and Tools",
             "percent": "75"
         },
         {
             "name": "Perforce",
+            "category": "Frameworks and Tools",
             "percent": "80"
         },
         {
             "name": "Firebase",
+            "category": "Frameworks and Tools",
             "percent": "60"
         },
         {
             "name": "PostgresSQL",
+            "category": "Frameworks and Tools",
             "percent": "90"
         },
         {
             "name": "MySQL",
+            "category": "Frameworks and Tools",
             "percent": "90"
         },
         {
             "name": "Unit Testing",
+            "category": "Frameworks and Tools",
             "percent": "85"
         },
         {
             "name": "API",
+            "category": "Frameworks and Tools",
             "percent": "100"
         },
         {
             "name": "Docker",
+            "category": "DevOps and Infastructure",
             "percent": "85"
         },
         {
             "name": "Portainer",
+            "category": "DevOps and Infastructure",
             "percent": "90"
         },
         {
             "name": "Cloudflare",
+            "category": "DevOps and Infastructure",
             "percent": "35"
         },
         {
             "name": "Network Tunneling",
+            "category": "DevOps and Infastructure",
             "percent": "50"
         },
         {
             "name": "Port Management",
+            "category": "DevOps and Infastructure",
             "percent": "100"
         },
         {
             "name": "Customer Computer Hardware Assembly",
+            "category": "DevOps and Infastructure",
             "percent": "85"
         },
         {
             "name": "Ubuntu",
+            "category": "Operating Systems",
             "percent": "70"
         },
         {
             "name": "Ubuntu Server",
+            "category": "Operating Systems",
             "percent": "70"
         },
         {
             "name": "Proxmox",
+            "category": "Operating Systems",
             "percent": "60"
         },
         {
             "name": "TrueNAS Scale",
+            "category": "Operating Systems",
             "percent": "60"
         },
         {
             "name": "Windows home",
+            "category": "Operating Systems",
             "percent": "100"
         },
         {
             "name": "Windows Server",
+            "category": "Operating Systems",
             "percent": "90"
         },
         {
             "name": "Flutter",
+            "category": "Frameworks and Tools",
             "percent": "50"
         },
         {
             "name": "Dart",
+            "category": "Languages",
             "percent": "50"
+        },
+        {
+            "name": "MacOS",
+            "category": "Operating Systems",
+            "percent": "80"
         }
     ],
     "projects":
