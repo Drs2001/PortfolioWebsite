@@ -4,7 +4,7 @@ import data from "./data.json";
 export default function Home() {
   return (
     <div className="home">
-      <div className="pt-60">
+      <div className="flex flex-col justify-center">
         <p>Hi I am</p>
         <p className="font-bold text-lg">{data.personal_info.first_name} {data.personal_info.last_name}</p>
         <p className="title">Full Stack Developer / IT Enthusiast</p>
