@@ -12,6 +12,5 @@
 .card:hover { transform: translateY(-2px); }
 
 .title{
-    font-weight: bold;
     font-size: large;
 }
