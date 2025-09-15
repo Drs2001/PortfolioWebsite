@@ -79,4 +79,8 @@ main{
   .imageTest{
   display: none;
 }
+
+html{
+  font-size: 10px;
+}
 }
