@@ -75,7 +75,7 @@ const ProjectCard = ({ title, summary, about, tags, image, link }: CardProps) =>
         </div>
         <div style={{paddingBottom: 20, paddingTop: 30}}>
             <h2 className={styles.drawerSubHeading}>Check out the project</h2>
-            <a href={link} target="_blank" rel="noopener noreferrer">{link}</a>
+            <a href={link} className={styles.drawerLink} target="_blank" rel="noopener noreferrer">{link}</a>
         </div>
       </div>
     </>
