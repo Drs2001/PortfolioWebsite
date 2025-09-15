@@ -10,10 +10,10 @@
 
 .right {
   flex: 2;
+  padding-bottom: 20px;
 }
 
 .left:hover { transform: translateY(-2px); }
-.right:hover { transform: translateY(-2px); }
 
 .divider {
   width: 2px;
