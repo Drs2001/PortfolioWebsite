@@ -6,14 +6,10 @@
 
 .left {
   flex: 1;
-  padding: 20px;
-  border-radius: 10px;
 }
 
 .right {
   flex: 2;
-  padding: 20px;
-  border-radius: 10px;
 }
 
 .left:hover { transform: translateY(-2px); }
