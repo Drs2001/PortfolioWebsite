@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "./page.module.css";
 import data from "../data.json"
+import Timeline from "../components/Timeline";
 
 const Aboutme = () => {
     return (
@@ -19,7 +20,9 @@ const Aboutme = () => {
                 <h2 id="interests" className={styles.subHeading}>Interests/ Hobbies</h2>
                 <p>{data.about.interests}</p>
                 <h2 id="history" className={styles.subHeading}>My History</h2>
-                <p>{data.about.history}</p>
+                <Timeline 
+                    temp="test"
+                />
             </div>
         </div>
     )
