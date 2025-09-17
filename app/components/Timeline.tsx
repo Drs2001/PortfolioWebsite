@@ -1,4 +1,4 @@
-'use client'; // This is required for Next.js 13+ App Router to use client-side features
+'use client';
 
 import React from 'react'
 import styles from './Timeline.module.css';

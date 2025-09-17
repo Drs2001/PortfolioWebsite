@@ -2,6 +2,7 @@ import React from 'react'
 import styles from "./page.module.css";
 import data from "../data.json"
 import Timeline from "../components/Timeline";
+import HobbyCarousel from "../components/HobbyCarousel";
 
 const Aboutme = () => {
     return (
@@ -18,7 +19,7 @@ const Aboutme = () => {
                 <h2 id="summary" className={styles.subHeading}>Summary</h2>
                 <p>{data.about.summary}</p>
                 <h2 id="interests" className={styles.subHeading}>Interests/ Hobbies</h2>
-                <p>{data.about.interests}</p>
+                <HobbyCarousel/>
                 <h2 id="history" className={styles.subHeading}>My History</h2>
                 <Timeline 
                     temp="test"

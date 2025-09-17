@@ -1,0 +1,52 @@
+.carouselWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+  overflow: hidden;
+}
+
+.carouselContainer {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px; /* enables 3D effect */
+}
+
+.carouselCard {
+  position: absolute;
+  width: 300px;
+  height: 450px;
+  background: rgb(27, 27, 27);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  backface-visibility: hidden; /* helps with 3D transforms */
+}
+
+.carouselCard h1{
+    font-weight: bold;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.carouselCard p{
+    color: white;
+    padding: 20px;
+    font-size: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
