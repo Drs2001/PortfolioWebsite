@@ -77,6 +77,40 @@
                 "description": "Seeing new places and experiencing new things is the best. To date I've been to most states on the east coast, Texas, California, Bermuda, Puerto Rico, Puerto Vallarta Mexico, and Japan.",
                 "image": "/travel.jpeg"
             }
+        ],
+        "timeline": [
+            {
+                "year": "2001",
+                "description": "I was origionally born in Daytona beach Florida where I spent the first few years of my life. I dont remember too much from that time, only hiding in my nursery with a dresser in front of the window as hurricane Charely beat down on us. From here started a long series of moves up and down the east coast."
+            },
+            {
+                "year": "2004",
+                "description": "The first destination was Michigan were we lived in Roscommon for a few years, this is where I started preschool."
+            },
+            {
+                "year": "2007",
+                "description": "Moved to Fairfax, Virginia, where I learned how to swim and started kindergarten."
+            },
+            {
+                "year": "2008",
+                "description": "Moved back to Florida, this time living on Merrit Island the space coast. I remember watching shuttle launches from my driveway with my friends."
+            },
+            {
+                "year": "2011",
+                "description": "Moved to Annapolis, Maryland where I started fourth grade. Lived here for a while getting to finish elementry and middle school before moving my Junior year of highschool."
+            },
+            {
+                "year": "2018",
+                "description": "Moved to Virginia Beach, Virginia where I got to graduate from highschool."
+            },
+            {
+                "year": "2020",
+                "description": "Graduated from Landstown Highschool in Virgnia Beach before moving to Albany, New York during the summer. Later that fall I got to start my college career at Rochester Institute of Technology."
+            },
+            {
+                "year": "2025",
+                "description": "Graduated from Rochester Institute of Technology with my degree in Computer Science."
+            }
         ]
     },
     "skills":

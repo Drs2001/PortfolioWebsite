@@ -21,9 +21,7 @@ const Aboutme = () => {
                 <h2 id="interests" className={styles.subHeading}>Interests/ Hobbies</h2>
                 <HobbyCarousel/>
                 <h2 id="history" className={styles.subHeading}>My History</h2>
-                <Timeline 
-                    temp="test"
-                />
+                <Timeline/>
             </div>
         </div>
     )
