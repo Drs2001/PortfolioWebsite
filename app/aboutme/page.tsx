@@ -16,11 +16,11 @@ const Aboutme = () => {
                 </div>
             </div>
             <div className={styles.body}>
-                <h2 id="summary" className={styles.subHeading}>Summary</h2>
+                <h2 id="summary" className="subHeading">Summary</h2>
                 <p>{data.about.summary}</p>
-                <h2 id="interests" className={styles.subHeading}>Interests/ Hobbies</h2>
+                <h2 id="interests" className="subHeading">Interests/ Hobbies</h2>
                 <HobbyCarousel/>
-                <h2 id="history" className={styles.subHeading}>My History</h2>
+                <h2 id="history" className="subHeading">My History</h2>
                 <Timeline/>
             </div>
         </div>

@@ -299,6 +299,11 @@
             "name": "MacOS",
             "category": "Operating Systems",
             "percent": "80"
+        },
+        {
+            "name": "Next.js",
+            "category": "Frameworks and Tools",
+            "percent": "60"
         }
     ],
     "projects":
@@ -319,7 +324,104 @@
             "image": "/rmFileExplorer.png",
             "link": "https://github.com/Drs2001/RemarkableFileExplorer"
         }
+    ],
+    "education":
+    {
+        "summary": "Graduated from Rochester Institute of Technology in May of 2025 with a Bacholers degree in Computer Science.",
+        "gpa": "3.5",
+        "classes": [
+        {
+            "name": "Computer Science for AP Students",
+            "courseNumber": "CSCI 140",
+            "grade": "B+",
+            "description": "The course stresses problem solving while covering modern software development techniques and introducing essential software tools. Topics include tree and graph structures, nested data structures, objects, classes, inheritance, interfaces, object-oriented collection class libraries for abstract data types (e.g. stacks, queues, maps, and trees), and static vs. dynamic data types. Concepts of object-oriented design are a large part of the course. Software qualities related to object orientation, namely cohesion, minimal coupling, modifiability, and extensibility, are all introduced in this course, as well as a few elementary object-oriented design patterns. Input and output streams, graphical user interfaces, and exception handling are covered."
+        },
+        {
+            "name": "The Mechanics of Programming",
+            "courseNumber": "CSCI 243",
+            "grade": "B-",
+            "description": "Students will be introduced to the details of program structure and the mechanics of execution as well as supportive operating system features. Security and performance issues in program design will be discussed. The program translation process will be examined."
+        },
+        {
+            "name": "Intro to Computer Science Theory",
+            "courseNumber": "CSCI 262",
+            "grade": "A-",
+            "description": "This course provides an introduction to the theory of computation, including formal languages, grammars, auto-mata theory, computability, and complexity. "
+        },
+        {
+            "name": "Intro to Software Engineering",
+            "courseNumber": "SWEN 261",
+            "grade": "B",
+            "description": "An introductory course in software engineering, emphasizing the organizational aspects of software development and software design and implementation by individuals and small teams within a process/product framework. Topics include the software lifecycle, software design, user interface issues, specification and implementation of components, assessing design quality, design reviews and code inspections, software testing, basic support tools, technical communications and system documentation, team-based development. "
+        },
+        {
+            "name": "Principles of Data Management",
+            "courseNumber": "CSCI 320",
+            "grade": "B",
+            "description": "This course provides a broad introduction to the principles and practice of modern data management, with an emphasis on the relational database model. Topics in relational database systems include data modeling; the relational model; relational algebra; Structured Query Language (SQL); and data quality, transactions, integrity and security. Students will also learn approaches to building relational database application programs. Additional topics include object-oriented and object-relational databases; semi-structured databases (such as XML); and information retrieval. "
+        },
+        {
+            "name": "Concepts of Parallel and Distributed Systems",
+            "courseNumber": "CSCI 251",
+            "grade": "A",
+            "description": "This course is an introduction to the organization and programming of systems comprising multiple computers. Topics include the organization of multi-core computers, parallel computer clusters, computing grids, client-server systems, and peer-to-peer systems; computer networks and network protocols; network security; multi-threaded programming; and network programming. "
+        },
+        {
+            "name": "Concepts of Computer Systems",
+            "courseNumber": "CSCI 250",
+            "grade": "B-",
+            "description": "An introduction to the hardware and software organization of computer systems. The course emphasizes a multilevel model of computer organization. Topics include the digital logic level; the micro architecture level; the machine instruction set level; the operating system level; and the assembly language level."
+        },
+        {
+            "name": "Historical and Current Computer Science",
+            "courseNumber": "CSCI 472",
+            "grade": "A-",
+            "description": "Students who have a background in Computer Science theories, algorithms, and data structures will be provided a look at the history of Computer Science from historical and current perspectives. Topics include an early history of Computer Science, a study of the people who shaped Computer Science, and a discussion of major milestones in Computer Science. Additionally, students will study current issues in Computer Science, including legal, ethical, diversity, equity, inclusion, accessibility and privacy issues, and how past issues affect modern designs and decision making by computer scientists. "
+        },
+        {
+            "name": "Programming Language Concepts",
+            "courseNumber": "CSCI 344",
+            "grade": "A-",
+            "description": "This course is a study of the syntax and semantics of a diverse set of high-level programming languages. The languages chosen are compared and contrasted in order to demonstrate general principles of programming language design and implementation. The course emphasizes the concepts underpinning modern languages rather than the mastery of particular language details."
+        },
+        {
+            "name": "Intro to Artificial Intelligence",
+            "courseNumber": "CSCI 331",
+            "grade": "A",
+            "description": "An introduction to the theories and algorithms used to create artificial intelligence (AI) systems. Topics include search algorithms, logic, planning, machine learning, and applications from areas such as computer vision, robotics, and natural language processing."
+        },
+        {
+            "name": "Programming Skills (Design patterns in C#/.NET)",
+            "courseNumber": "CSCI 541",
+            "grade": "B+",
+            "description": "The goal of this course is to introduce the students to a programming paradigm and an appropriate programming language chosen from those that are currently important or that show high promise of becoming important. A significant portion of the learning curve occurs through programming assignments with exemplary solutions discussed later in class. "
+        },
+        {
+            "name": "Intro to Cryptography",
+            "courseNumber": "CSCI 462",
+            "grade": "A-",
+            "description": "This course provides an introduction to cryptography, its mathematical foundations, and its relation to security. It covers classical cryptosystems, private-key cryptosystems (including DES and AES), hashing and public-key cryptosystems (including RSA). The course also provides an introduction to data integrity and authentication. "
+        },
+        {
+            "name": "Database System Implementation",
+            "courseNumber": "CSCI 421",
+            "grade": "A-",
+            "description": "This course provides a broad introduction to database management systems including data modeling, the relational model, and SQL. Database system implementation issues are covered next, where the focus is on data structures and algorithms used to implement database management systems. Topics include physical data organization, indexing and hashing, query processing and optimization, database recovery techniques, transaction management, concurrency control, and database performance evaluation. "
+        },
+        {
+            "name": "Data Communication and Networks",
+            "courseNumber": "CSCI 351",
+            "grade": "A",
+            "description": "This course is an in-depth study of data communications and networks. The course covers design of, and algorithms and protocols used in, the physical, data link, network, transport, and application layers in the Internet; methods for modeling and analyzing networks, including graphs, graph algorithms, and discrete event simulation; and an introduction to network science."
+        },
+        {
+            "name": "Analysis of Algorithms",
+            "courseNumber": "CSCI 261",
+            "grade": "SE",
+            "description": "This course provides an introduction to the design and analysis of algorithms. It covers a variety of classical algorithms and data structures and their complexity and will equip students with the intellectual tools to design, analyze, implement, and evaluate their own algorithms."
+        }
     ]
+    }
 
 
     
