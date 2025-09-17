@@ -21,6 +21,7 @@ const Skills = () => {
     const frameworks: { name: string; category: string; percent: string; }[] = []
     const devops: { name: string; category: string; percent: string; }[] = []
     const os: { name: string; category: string; percent: string; }[] = []
+    const other: { name: string; category: string; percent: string; }[] = []
 
     filteredSkills.forEach((skill) =>{
         switch (skill.category){
@@ -35,6 +36,9 @@ const Skills = () => {
                 break;
             case "Operating Systems":
                 os.push(skill);
+                break;
+            case "Other":
+                other.push(skill);
                 break;
         }
     });
@@ -84,6 +88,16 @@ const Skills = () => {
                 <h1 className={styles.subHeading}>Operating Systems</h1>
                 <div className={styles.cards}>
                     {os.map((skill: any, index: number) => (
+                        <SkillCard 
+                            key={index}
+                            skill={skill.name}
+                            percent={skill.percent}
+                        />
+                    ))}
+                </div>
+                <h1 className={styles.subHeading}>Other</h1>
+                <div className={styles.cards}>
+                    {other.map((skill: any, index: number) => (
                         <SkillCard 
                             key={index}
                             skill={skill.name}

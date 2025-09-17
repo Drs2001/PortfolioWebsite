@@ -17,6 +17,17 @@
     font-weight: bold;
 }
 
+.nav{
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+    align-self: center;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
 .classCards{
     display: flex;
     flex-direction: column;

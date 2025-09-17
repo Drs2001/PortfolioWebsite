@@ -8,13 +8,18 @@ const Education = () => {
             <h1 className="title">
                 Education
             </h1>
-            <h2 className="subHeading">Summary</h2>
+            <div className={styles.nav}>
+                <a href="#summary" className={styles.link}>Summary</a>
+                <a href="#diploma" className={styles.link}>Diploma</a>
+                <a href="#courses" className={styles.link}>Completed Courses</a>
+            </div>
+            <h2 id="summary" className="subHeading">Summary</h2>
             <div style={{marginLeft: 30}}>
                 <h2>GPA: {data.education.gpa}</h2>
                 <p>{data.education.summary}</p>
             </div>
-            <img src="/diploma.png" width={1000} height={1000} alt="" />
-            <h2 className="subHeading">Completed Classes</h2>
+            <img id="diploma" src="/diploma.png" width={1000} height={1000} alt="" />
+            <h2 id="courses" className="subHeading">Completed Courses</h2>
             <div className={styles.classCards}>
                 {data.education.classes.map((card, i) => (
                     <div

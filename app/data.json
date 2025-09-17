@@ -304,6 +304,11 @@
             "name": "Next.js",
             "category": "Frameworks and Tools",
             "percent": "60"
+        },
+        {
+            "name": "Adaptability",
+            "category": "Other",
+            "percent": "100"
         }
     ],
     "projects":
