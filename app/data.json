@@ -201,157 +201,182 @@
         {
             "name": "Troubleshooting Virtual Machines",
             "category": "Frameworks and Tools",
-            "percent": "75"
+            "percent": "75",
+            "description": "I run my own homelab with Proxmox and have multiple virtual machines to handel different aspects of my homelab."
         },
         {
             "name": "Django",
             "category": "Frameworks and Tools",
-            "percent": "100"
+            "percent": "100",
+            "description": "Worked on companies internal website built with Django during my co-op at Precision Optical Technologies."
         },
         {
             "name": "Angular",
             "category": "Frameworks and Tools",
-            "percent": "40"
+            "percent": "40",
+            "description": "Used Angular for my Software Engineering class to build our semester long project in."
         },
         {
             "name": "React",
             "category": "Frameworks and Tools",
-            "percent": "50"
+            "percent": "50",
+            "description": "Used React Native when working on the Android app for Precision Optical Technoloiges."
         },
         {
             "name": "GIT",
             "category": "Frameworks and Tools",
-            "percent": "100"
+            "percent": "100",
+            "description": "Been using GIT for version control in both school and work for years now."
         },
         {
             "name": ".NET",
             "category": "Frameworks and Tools",
-            "percent": "75"
+            "percent": "75",
+            "description": "Took a class in college focused on .NET principles and development, along with working on it during my MKS co-op."
         },
         {
             "name": "Perforce",
             "category": "Frameworks and Tools",
-            "percent": "80"
+            "percent": "80",
+            "description": "Was used instead of GIT for version control at MKS."
         },
         {
             "name": "Firebase",
             "category": "Frameworks and Tools",
-            "percent": "60"
+            "percent": "60",
+            "description": "Used for the backend to the Haikumi app I worked on."
         },
         {
             "name": "PostgresSQL",
             "category": "Frameworks and Tools",
-            "percent": "90"
+            "percent": "90",
+            "description": "Used for personal projects."
         },
         {
             "name": "MySQL",
             "category": "Frameworks and Tools",
-            "percent": "90"
+            "percent": "90",
+            "description": "Worked with during co-op with Precision Optical Technologies."
         },
         {
             "name": "Unit Testing",
             "category": "Frameworks and Tools",
-            "percent": "85"
+            "percent": "85",
+            "description": "Wrote unit tests for both MKS and Precision Optical Technologies."
         },
         {
             "name": "API",
             "category": "Frameworks and Tools",
-            "percent": "100"
+            "percent": "100",
+            "description": "Wrote API's for both college classes and at Precision Optical Tehcnologies."
         },
         {
             "name": "Docker",
             "category": "DevOps and Infastructure",
-            "percent": "85"
+            "percent": "85",
+            "description": "Wrote docker and docker compose files at Precision Optical Technologies, along with container managment both on co-op and for my own personal homelab."
         },
         {
             "name": "Portainer",
             "category": "DevOps and Infastructure",
-            "percent": "90"
+            "percent": "90",
+            "description": "Tool of choice for managing docker installations."
         },
         {
             "name": "Cloudflare",
             "category": "DevOps and Infastructure",
-            "percent": "35"
+            "percent": "35",
+            "description": "I've mostly worked with their Zerotrust access for serving my homelab services to the internet without needing to portforward myself."
         },
         {
             "name": "Network Tunneling",
             "category": "DevOps and Infastructure",
-            "percent": "50"
+            "percent": "50",
+            "description": "Setup personal VPNs."
         },
         {
             "name": "Port Management",
             "category": "DevOps and Infastructure",
-            "percent": "100"
+            "percent": "100",
+            "description": "Worked on school projects requiring proper port configuration, along with portforwarding on my own personal network."
         },
         {
             "name": "Customer Computer Hardware Assembly",
             "category": "DevOps and Infastructure",
-            "percent": "85"
+            "percent": "85",
+            "description": "Built multiple computers."
         },
         {
             "name": "Ubuntu",
             "category": "Operating Systems",
-            "percent": "70"
+            "percent": "70",
+            "description": "Developed software in Ubuntu, and dual boot my personal PC with Ubuntu and Windows."
         },
         {
             "name": "Ubuntu Server",
             "category": "Operating Systems",
-            "percent": "70"
+            "percent": "70",
+            "description": "The OS I chose when setting up my homelab for my docker VM specifically."
         },
         {
             "name": "Proxmox",
             "category": "Operating Systems",
-            "percent": "60"
+            "percent": "60",
+            "description": "Used as the basis for my homelab."
         },
         {
             "name": "TrueNAS Scale",
             "category": "Operating Systems",
-            "percent": "60"
+            "percent": "60",
+            "description": "Setup on my homelab for network storage."
         },
         {
             "name": "Windows home",
             "category": "Operating Systems",
-            "percent": "100"
+            "percent": "100",
+            "description": "The operating system I have daily driven for years."
         },
         {
             "name": "Windows Server",
             "category": "Operating Systems",
-            "percent": "90"
+            "percent": "90",
+            "description": "Worked with it on co-op at MKS."
         },
         {
             "name": "Flutter",
             "category": "Frameworks and Tools",
-            "percent": "50"
+            "percent": "50",
+            "description": "The framework utalized when developing Haikumi at my Mimio internship."
         },
         {
             "name": "Dart",
             "category": "Languages",
-            "percent": "50"
+            "percent": "50",
+            "description": "The language Flutter uses, and what I used when developing Haikumi at my Mimio internship."
         },
         {
             "name": "MacOS",
             "category": "Operating Systems",
-            "percent": "80"
+            "percent": "80",
+            "description": "Daily driven MacOS and used for development."
         },
         {
             "name": "Next.js",
             "category": "Frameworks and Tools",
-            "percent": "60"
+            "percent": "60",
+            "description": "Used when building this website."
         },
         {
             "name": "Adaptability",
             "category": "Other",
-            "percent": "100"
-        },
-        {
-            "name": "Flexability",
-            "category": "Other",
-            "percent": "100"
+            "percent": "100",
+            "description": "If you take a look at my about me timeline you'll see I've moved around quite a lot causing me to become very adaptiable."
         },
         {
             "name": "Communication",
             "category": "Other",
-            "percent": "100"
+            "percent": "100",
+            "description": "Did my immersion in communication at Rochester Institute of Technology, and applied these learned skills on co-ops when colaberating with other departments on various projects."
         }
     ],
     "projects":
