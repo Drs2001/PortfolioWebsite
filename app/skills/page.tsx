@@ -31,7 +31,7 @@ const Skills = () => {
             case "Frameworks and Tools":
                 frameworks.push(skill);
                 break;
-            case "DevOps and Infastructure":
+            case "DevOps and Infrastructure":
                 devops.push(skill);
                 break;
             case "Operating Systems":
