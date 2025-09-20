@@ -110,8 +110,13 @@
                 "image": "/bella.jpg"
             },
             {
+                "year": "2017",
+                "description": "Passed my drivers test and got my license!",
+                "image": "/driverslicense.jpeg"
+            },
+            {
                 "year": "2018",
-                "description": "Moved to Virginia Beach, Virginia where I got to graduate from highschool.",
+                "description": "Moved to Virginia Beach, Virginia.",
                 "image": ""
             },
             {
@@ -120,9 +125,14 @@
                 "image": "/2020graduation.jpg"
             },
             {
+                "year": "2024",
+                "description": "Me and my friend went to Japan.",
+                "image": "/japan.jpg"
+            },
+            {
                 "year": "2025",
                 "description": "Graduated from Rochester Institute of Technology with my degree in Computer Science.",
-                "image": ""
+                "image": "/2025graduation.jpg"
             }
         ]
     },
