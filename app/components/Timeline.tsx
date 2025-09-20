@@ -44,8 +44,13 @@ const Timeline= () => {
             className={`${styles.container} ${i % 2 === 0 ? styles.left : styles.right}`}
           >
             <div className={`${styles.content}`}>
+                <div className="flex-column">
                 <h2>{card.year}</h2>
                 <p>{card.description}</p>
+                </div>
+                {card.image != "" && (
+                  <img src={card.image} />
+                )}
             </div>
           </div>
         ))}

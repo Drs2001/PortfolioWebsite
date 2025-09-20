@@ -1,19 +1,6 @@
 @import "tailwindcss";
 
 :root {
-  /* --background: linear-gradient(180deg, #0a0f1c, #0d0d0d); blue */
-  /* --background: linear-gradient(180deg, #140a1c, #0d0d0d); purple*/
-  /* --background: linear-gradient(180deg, #111820, #0f0f0f); gray */
-  /* --background: 
-  radial-gradient(circle at 25% 25%, rgba(0, 255, 200, 0.14), transparent 60%),
-  radial-gradient(circle at 75% 75%, rgba(155, 89, 182, 0.12), transparent 70%),
-  linear-gradient(180deg, #0b0c10, #0e0e12); teal + purple glow */
-
-  /* --background: 
-  radial-gradient(circle at 30% 20%, rgba(0, 191, 255, 0.15), transparent 60%),
-  radial-gradient(circle at 70% 80%, rgba(0, 255, 170, 0.1), transparent 70%),
-  linear-gradient(180deg, #090a0f, #0c0c11); blue + cyan glow*/
-
   --background: 
   radial-gradient(circle at 30% 20%, rgba(0, 119, 255, 0.15), transparent 60%), 
   radial-gradient(circle at 80% 80%, rgba(199, 22, 22, 0.12), transparent 70%),

@@ -30,7 +30,7 @@ const ProjectCard = ({ title, summary, about, tags, image, link }: CardProps) =>
           className={styles.imageContainer}
           onClick={() => setOpen(true)} // open drawer on click
         >
-          <img src={image} width={500} height={500} alt={title} />
+          <img src={image} alt={title} />
           <div className={styles.overlay}></div>
           <div className={styles.toolTip}>
             <h1 className={styles.tipTitle}>{title}</h1>

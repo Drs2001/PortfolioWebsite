@@ -61,7 +61,7 @@ const Skills = () => {
                         <SkillCard 
                             key={index}
                             skill={skill.name}
-                            percent={skill.percent}
+                            description={skill.description}
                         />
                     ))}
                 </div>
@@ -71,7 +71,7 @@ const Skills = () => {
                         <SkillCard 
                             key={index}
                             skill={skill.name}
-                            percent={skill.percent}
+                            description={skill.description}
                         />
                     ))}
                 </div>
@@ -81,7 +81,7 @@ const Skills = () => {
                         <SkillCard 
                             key={index}
                             skill={skill.name}
-                            percent={skill.percent}
+                            description={skill.description}
                         />
                     ))}
                 </div>
@@ -91,7 +91,7 @@ const Skills = () => {
                         <SkillCard 
                             key={index}
                             skill={skill.name}
-                            percent={skill.percent}
+                            description={skill.description}
                         />
                     ))}
                 </div>
@@ -101,7 +101,7 @@ const Skills = () => {
                         <SkillCard 
                             key={index}
                             skill={skill.name}
-                            percent={skill.percent}
+                            description={skill.description}
                         />
                     ))}
                 </div>
