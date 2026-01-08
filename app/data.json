@@ -206,12 +206,6 @@
             "description": "Worked on companies internal website built with Django during my co-op at Precision Optical Technologies."
         },
         {
-            "name": "Angular",
-            "category": "Frameworks and Tools",
-            "percent": "40",
-            "description": "Used Angular for my Software Engineering class to build our semester long project in."
-        },
-        {
             "name": "React",
             "category": "Frameworks and Tools",
             "percent": "50",
@@ -372,6 +366,12 @@
             "category": "Other",
             "percent": "100",
             "description": "Did my immersion in communication at Rochester Institute of Technology, and applied these learned skills on co-ops when collaborating with other departments on various projects."
+        },
+        {
+            "name": "Organization",
+            "category": "Other",
+            "percent": "100",
+            "description": ""
         }
     ],
     "projects": [

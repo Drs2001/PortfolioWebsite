@@ -10,7 +10,7 @@ export default function Home() {
         <p className="title">Full Stack Developer / IT Enthusiast</p>
         <Icons />
         <div className="flex gap-2.5">
-          <a href="/DylanResume2025.pdf" download className="downloadButtons">Download Resume</a>
+          <a href="/DylanResume.pdf" download className="downloadButtons">Download Resume</a>
           {/* <a href="/CoverLetter.odt" download className="downloadButtons">Download CV</a> */}
         </div>
       </div>
