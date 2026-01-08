@@ -36,7 +36,7 @@
         }
     ],
     "about": {
-        "summary": "From a young age, I\u2019ve been driven by curiosity\u2014taking apart phones, computers, and any electronics I could find to understand how they work. That passion led me to pursue a degree in Computer Science, where I\u2019ve channeled my inquisitive nature into mastering how computers work, exploring the best technologies for specific applications, and optimizing efficiency in software solutions. I've been fortunate to intern at some great companies while pursuing my degree in Computer Science. These companies really helped me to take the skills I learned in the classroom and apply them in a practical setting. I started off with mobile app development, crafting a modern app using Flutter and Firebase to meet client specs. At MKS, I worked as a .NET developer, enhancing DLL libraries for RF generators and streamlining processes with Jenkins and JavaScript automation scripts. Most recently, at Precision Optical Technologies, I tackled everything from embedded C development and Django-based data analytics to Electron cross-platform apps, React Android development, Docker containerization, and Python APIs for engineering workflows. I\u2019m passionate about writing efficient, impactful code and thrive in dynamic, problem-solving environments. My goal? To join a forward-thinking team where I can contribute to innovative software solutions. When I\u2019m not coding, I\u2019m managing and improving my homelab with a goal of de-googling my life. Let\u2019s connect to talk tech, opportunities, or the next big project!",
+        "summary": "I was originally born in Daytona Beach Florida, but I don’t remember much from my time there as my family moved away when I was still very young. This was the first in a long line of moves I would later go on to do, starting with Michigan, then Virginia, back to Florida, then Maryland, back to Virginia again, and then finally New York which is where I currently live. Most people think moving around that much is a bad thing, but I never viewed it this way. I looked at it as a way to see new places and meet all kinds of people and actually started looking forward to moving. I also look back at how moving so much grew some very useful skills of mine like flexibility and adaptability. Aside from having moved around, some hobbies I picked up along the way include a love for Soccer, Bouldering, computer building, cooking, sports in general, programming, Homelabbing, and gaming to name a few. It was these hobbies and interests that shaped my path forward and ultimately led me to pursue a degree in Computer Science, as from an early age I’ve been fascinated with computers and how they work. My goal moving forward is to take the degree I’ve earned and use it to contribute to a software project in a meaningful way. I love problem solving and look forward to seeing how I can use the skills I’ve learned to solve complex problems.",
         "interests": [
             {
                 "name": "Soccer",
@@ -104,11 +104,6 @@
                 "year": "2013",
                 "description": "Got my family dog Bella!",
                 "image": "/bella.jpg"
-            },
-            {
-                "year": "2017",
-                "description": "Passed my drivers test and got my license!",
-                "image": "/driverslicense.jpeg"
             },
             {
                 "year": "2018",
@@ -375,6 +370,41 @@
         }
     ],
     "projects": [
+        {
+            "title": "Porthole Desktop Environment",
+            "summary": "Taskbar widget that makes up the users desktop",
+            "about": "A Quickshell based widget that when combined with Hyprland makes up the desktop experience of Porthole.",
+            "tags": [
+                "Quickshell",
+                "QML",
+                "Bash"
+            ],
+            "image": "/PortholeDE.png",
+            "link": "https://github.com/Drs2001/PortholeDE"
+        },
+        {
+            "title": "Porthole Scripts",
+            "summary": "A collection of Bash scripts used to build Porthole.",
+            "about": "Bash scripts meant to be run on a fresh install of Arch linux. They install required packages, and configure dot files to build the Porthole desktop experience.",
+            "tags": [
+                "Bash"
+            ],
+            "image": "/PortholeScript.png",
+            "link": "https://github.com/Drs2001/Porthole"
+        },
+        {
+            "title": "Porthole Settings",
+            "summary": "Simple settings app used to configure Porthole",
+            "about": "An application that allows the user to configure and customize various aspects of the Porthole Distro.",
+            "tags": [
+                "Python",
+                "QML",
+                "JSON",
+                "Bash"
+            ],
+            "image": "/PortholeSettings.png",
+            "link": "https://github.com/Drs2001/PortholeSettings"
+        },
         {
             "title": "Wordle Solver",
             "summary": "Simple application to solve Wordles",
