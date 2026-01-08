@@ -383,16 +383,6 @@
             "link": "https://github.com/Drs2001/PortholeDE"
         },
         {
-            "title": "Porthole Scripts",
-            "summary": "A collection of Bash scripts used to build Porthole.",
-            "about": "Bash scripts meant to be run on a fresh install of Arch linux. They install required packages, and configure dot files to build the Porthole desktop experience.",
-            "tags": [
-                "Bash"
-            ],
-            "image": "/PortholeScript.png",
-            "link": "https://github.com/Drs2001/Porthole"
-        },
-        {
             "title": "Porthole Settings",
             "summary": "Simple settings app used to configure Porthole",
             "about": "An application that allows the user to configure and customize various aspects of the Porthole Distro.",
@@ -406,16 +396,6 @@
             "link": "https://github.com/Drs2001/PortholeSettings"
         },
         {
-            "title": "Wordle Solver",
-            "summary": "Simple application to solve Wordles",
-            "about": "An application that filters words based on guesses in Wordle to return a limited list of possible 5 letter words it can be.",
-            "tags": [
-                "Java"
-            ],
-            "image": "/wordl.png",
-            "link": "https://github.com/Drs2001/WordleSolver"
-        },
-        {
             "title": "Haikumi",
             "summary": "Ever wanted to message in Haiku form?",
             "about": "Haikumi is a messaging app that allows users to communicate through Haikus.",
@@ -426,6 +406,26 @@
             ],
             "image": "/haikumi.png",
             "link": "https://haikumi.app/"
+        },
+        {
+            "title": "Wordle Solver",
+            "summary": "Simple application to solve Wordles",
+            "about": "An application that filters words based on guesses in Wordle to return a limited list of possible 5 letter words it can be.",
+            "tags": [
+                "Java"
+            ],
+            "image": "/wordl.png",
+            "link": "https://github.com/Drs2001/WordleSolver"
+        },
+        {
+            "title": "Porthole Scripts",
+            "summary": "A collection of Bash scripts used to build Porthole.",
+            "about": "Bash scripts meant to be run on a fresh install of Arch linux. They install required packages, and configure dot files to build the Porthole desktop experience.",
+            "tags": [
+                "Bash"
+            ],
+            "image": "/PortholeScript.png",
+            "link": "https://github.com/Drs2001/Porthole"
         },
         {
             "title": "Remarkable File Explorer",
