@@ -20,16 +20,16 @@ const SkillCard = ({skill, description}: CardProps) => {
     return (
     <>
     <div className={styles.card}
-    onClick={() => setOpen(true)}
+    // onClick={() => setOpen(true)}
     >
         <p className={styles.title}>{skill}</p>
     </div>
 
     {/* Overlay (dark background) */}
-      {open && <div className={styles.backdrop} onClick={() => setOpen(false)} />}
+      {/* {open && <div className={styles.backdrop} onClick={() => setOpen(false)} />} */}
 
       {/* Drawer */}
-      <div className={`${styles.drawer} ${open ? styles.open : ""}`}>
+      {/* <div className={`${styles.drawer} ${open ? styles.open : ""}`}>
         <button className={styles.closeBtn} onClick={() => setOpen(false)}>
           ✕
         </button>
@@ -37,7 +37,7 @@ const SkillCard = ({skill, description}: CardProps) => {
             <h1 className={styles.drawerTitle}>{skill}</h1>
             <p className={styles.drawerText}>{description}</p>
         </div>
-      </div>
+      </div> */}
       </>
     )
 }
