@@ -15,7 +15,7 @@
             "location": "Rochester, NY",
             "dates": "January 2024 - August 2024",
             "title": "Software Engineering Co-op",
-            "description": "Added internal data analytic features to web server, providing actionable insights for the production, sales, and engineering teams. Collaborated on cross-platform (iOS, Android, Windows) app development used by customers to interface with custom hardware.",
+            "description": "Designed a Gitlab synchronized web interface that improved our engineers project, and issue tracking by replacing an outdated excel spreadsheet. Maintained legacy software such as Electron, QT, and React based applications that accounted for a majority of company revenue. Managed the internal Django framework, improving on old features while adding new ones to support other parts of the company like sales, HR, production, and engineering.",
             "link": "https://www.precisionot.com/"
         },
         {
@@ -23,7 +23,7 @@
             "location": "Rochester, NY",
             "dates": "January 2023 - July 2023",
             "title": "Software Engineering Co-op",
-            "description": "Developed automation scripts to generate Windows .exe installers for various projects, significantly improving testing efficiency for the team. Additionally, contributed to the development and maintenance of the core DLL shared by all RF generators.",
+            "description": "Developed a Jenkins build automation script that greatly streamlined the ability to build and ship Windows executables. Enhanced main Dynamic Link Library by adding to the test suit, fixing reported bugs, and adding requested features.",
             "link": "https://www.mks.com/"
         },
         {
@@ -31,7 +31,7 @@
             "location": "Remote",
             "dates": "July 2022 - December 2022",
             "title": "App Developer",
-            "description": "Designed and implemented the underlying architecture of a cross-platform messaging application. Developed a novel syllable analysis engine for identifying Haiku poems within messages.",
+            "description": "Collaborated with the client to develop a unique messaging app that was shipped to Google Play Store and Apple App Store. Delivered timely Graphical User Interface updates to the client throughout development. Built backend components of the App including, Firebase database, user login flow, and a custom message interpretation engine.",
             "link": "https://apps.apple.com/us/app/haikumi/id1632097536"
         }
     ],
@@ -114,6 +114,16 @@
                 "year": "2020",
                 "description": "Graduated from Landstown High School in Virginia Beach before moving to Albany, New York during the summer. Later that fall I got to start my college career at Rochester Institute of Technology.",
                 "image": "/2020graduation.jpg"
+            },
+            {
+                "year": "2022",
+                "description": "Got my first internship as a App developer building a Haiku messaging app for a company out in Seattle.",
+                "image": ""
+            },
+            {
+                "year": "2023",
+                "description": "Started my internship with MKS Instruments, working mostly with Visual Basic and .NET to build Dynamic Link Librarys.",
+                "image": ""
             },
             {
                 "year": "2024",
