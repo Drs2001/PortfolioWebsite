@@ -127,7 +127,12 @@
             },
             {
                 "year": "2024",
-                "description": "Me and my friend went to Japan.",
+                "description": "Started my internship with Precision Optical Technologies, working on multiple different pieces of software for the company from Django to firmware for the company tuning boxes.",
+                "image": ""
+            },
+            {
+                "year": "2024",
+                "description": "Went on a trip to Japan!",
                 "image": "/japan.jpg"
             },
             {
