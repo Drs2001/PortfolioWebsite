@@ -11,7 +11,7 @@ export default function Home() {
         <Icons />
         <div className="flex gap-2.5">
           <a href="/DylanResume.pdf" download className="downloadButtons">Download Resume</a>
-          <a href="/DylanCoverletter.pdf" download className="downloadButtons">Download CV</a>
+          {/* <a href="/DylanCoverletter.pdf" download className="downloadButtons">Download CV</a> */}
         </div>
       </div>
       <img src="headshot.jpg" className="imageTest" alt="" />
